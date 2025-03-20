@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four Wheels Rent</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 10px;
+            text-align: center;
+            background: #2c3e50;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: url('hero.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: red;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        #servicios {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .services-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        #galeria {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 220px;
+            height: 150px;
+            border-radius: 5px;
+        }
+        #videos {
+            text-align: center;
+            padding: 50px 20px;
+            background: #f9f9f9;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #contacto {
+            text-align: center;
+            padding: 50px 20px;
+            background: #dddddd;
+        }
+        form input, form textarea, form button {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        form button {
+            background: red;
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .services-container {
+                flex-direction: column;
+            }
+            .service {
+                width: 80%;
+                margin: 0 auto;
+            }
+            .video-container iframe {
+                width: 100%;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div></div>
+        <img src="Lg1.png" alt="Logo" style="width: 80px; height: auto;">
+            <h1>My Country Adventures Tours SRL</h1>
+            <p>Explore with style and comfort</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Four Wheels.html">Four Wheels</a></li>
+                <li><a href="Monkey Jungle.html">Monkey Jungle</a></li>
+                <li><a href="zip line.html">zip line</a></li>
+                <li><a href="Panoramic view.html">Panoramic view</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Sección de Inicio -->
+   <center> <h2>Our ATV Tour Includes</h2>
+<ul class="black-text">
+  <li>Our ATV tour includes</li>
+  <li>Dominican coffee</li>
+  <li>Food the Dominican flag plus a water and coke in mama's typical house</li>
+  <li>Plantation</li>
+  <li>Visit to the Catalina River</li>
+</ul>
+
+<style>
+  .black-text {
+    color: black; /* Aplica color negro al texto */
+  }
+</style></center>
+        
+        <center><a href="#contact" class="btn">Book Now</a>
+    </section></center>
+    
+    <!-- Services Section -->
+<section id="services">
+    <center><h2>Our Services</h2></center>
+    <div class="services-container">
+        <div class="service">
+            <i class="fas fa-motorcycle"></i>
+            <h3>Hourly Rentals</h3>
+            <p>Enjoy the best experience with our hourly rates.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>Guided Routes</h3>
+            <p>Explore the best trails with our expert guides.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-tools"></i>
+            <h3>Maintenance Included</h3>
+            <p>Our vehicles are always in perfect condition.</p>
+        </div>
+    </div>
+</section>
+    
+    <!-- Sección de Galería -->
+    <section id="galeria">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="f4.jpg" alt="Four Wheel en acción">
+            <img src="f5.jpg" alt="Grupo de aventureros">
+            <img src="ft7.png" alt="Explorando la naturaleza">
+            <img src="f3.jpg" alt="Atardecer en el camino">
+        </div>
+    </section>
+    
+    <!-- Sección de Videos -->
+
+<style>
+    #videos {
+        text-align: center;
+        padding: 40px;
+        background-color: #f9f9f9;
+    }
+
+    #videos h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .video-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .video-box {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .video-box iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        transition: transform 0.3s ease;
+    }
+
+    .video-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .video-box:hover iframe {
+        transform: scale(1.1);
+    }
+</style>
+<section id="videos">
+    <h2>Videos of our adventures</h2>
+    <div class="video-container">
+        <div class="video-box">
+            <video controls>
+                <source src="Videos/Video1.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+        <div class="video-box">
+            <video controls>
+                <source src="Videos/Video de WhatsApp 2025-02-18 a las 22.10.32_05f4a9dd.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+        <div class="video-box">
+            <video controls>
+                <source src="Videos/Video de WhatsApp 2025-02-18 a las 22.21.42_eb164fda2.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+        <div class="video-box">
+            <video controls>
+                <source src="Videos/Video1.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+        <div class="video-box">
+            <video controls>
+                <source src="Videos/video5.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+    </div>
+</section>
+
+<style>
+    #videos {
+        text-align: center;
+        padding: 40px;
+        background-color: #f9f9f9;
+    }
+
+    #videos h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .video-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+        gap: 20px;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .video-box {
+        position: relative;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 300px; /* Ajusta la altura de los cuadros */
+    }
+
+    .video-box video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Mantiene la relación de aspecto del video */
+    }
+
+    .video-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+</style>
+<style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    /* Estilos para la sección de experiencia culinaria */
+    .food-experience {
+      text-align: center; /* Centra el texto */
+      padding: 40px 20px;
+      max-width: 1200px; /* Limita el ancho máximo */
+      margin: 0 auto; /* Centra la sección en la página */
+    }
+
+    .food-experience h2 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .food-experience p {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto 40px;
+    }
+
+    /* Estilos para la cuadrícula de imágenes */
+    .food-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Crea columnas responsivas */
+      gap: 20px; /* Espacio entre las imágenes */
+      margin: 20px 0; /* Margen superior e inferior */
+    }
+
+    /* Estilos para cada ítem de comida */
+    .food-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px; /* Bordes redondeados */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
+      transition: transform 0.3s ease; /* Efecto de zoom al pasar el mouse */
+    }
+
+    .food-item:hover {
+      transform: scale(1.05); /* Efecto de zoom */
+    }
+
+    /* Estilos para las imágenes */
+    .food-item img {
+      width: 100%;
+      height: 200px; /* Altura fija para las imágenes */
+      object-fit: cover; /* Ajusta la imagen sin distorsionar */
+      display: block;
+    }
+
+    /* Estilos para el texto superpuesto */
+    .food-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: opacity 0.3s ease; /* Efecto de desvanecimiento */
+      opacity: 0; /* Inicialmente invisible */
+    }
+
+    /* Mostrar el texto superpuesto al pasar el mouse */
+    .food-item:hover .food-overlay {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <!-- Food Experience Section -->
+  <section id="food-experience" class="food-experience">
+    <h2>Our Culinary Experience</h2>
+        <hr>
+      During your adventure, we take you to the best local food stops, Mama typical house house where you can taste traditional dishes prepared with fresh, local ingredients.
+      From savory street food to gourmet meals, our food stops are a journey for your taste buds.
+    </p>
+    <div class="food-grid">
+      <div class="food-item">
+        <img src="Domican Coffe.jpg" alt="Traditional Dish 1">
+        <div class="food-overlay">Savory Street Food</div>
+      </div>
+      <div class="food-item">
+        <img src="food2.jpg" alt="Traditional Dish 2">
+        <div class="food-overlay">Gourmet Local Cuisine</div>
+      </div>
+      <div class="food-item">
+        <img src="food3.jpg" alt="Traditional Dish 3">
+        <div class="food-overlay">Fresh Seafood Delights</div>
+      </div>
+      <div class="video-box">
+        <video controls>
+            <source src="Videos/food.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+    </div>
+  </section>
+
+    <!-- Sección de Contacto -->
+    <center><section id="Contact Us">
+        <h2>Contáct</h2>
+        <form id="contactForm">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="email" id="correo" placeholder="Correo" required>
+            <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+            <button type="button" onclick="enviarWhatsApp()">Enviar por WhatsApp</button>
+        </form></center>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2025 My Country Adventures Tours SRL. All rights reserved.</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> contact@mycountryadventures.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Adventure Road, Country</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para enviar información por WhatsApp -->
+    <script>
+        function enviarWhatsApp() {
+            // Obtener los valores del formulario
+            const nombre = document.getElementById('nombre').value;
+            const correo = document.getElementById('correo').value;
+            const mensaje = document.getElementById('mensaje').value;
+
+            // Formatear el mensaje
+            const texto = `Hola, soy ${nombre}.%0A%0A` +  // %0A es un salto de línea
+                          `Mi correo es: ${correo}.%0A%0A` +
+                          `Mensaje: ${mensaje}`;
+
+            // Crear el enlace de WhatsApp con TU número (reemplaza +18091234567 con tu número)
+            const url = `https://wa.link/z8j2b6send?phone=+18092184692&text=${encodeURIComponent(texto)}`;
+
+            // Abrir el enlace en una nueva pestaña
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>

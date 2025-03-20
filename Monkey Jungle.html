@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Tours - My Country Adventures Tours SRL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .tour-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+        }
+        .image-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .image-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .image-item:hover img {
+            transform: scale(1.1);
+        }
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .social-media a {
+            color: white;
+            font-size: 20px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div></div>
+        <img src="Lg1.png" alt="Logo" style="width: 80px; height: auto;">
+            <h1>My Country Adventures Tours SRL</h1>
+            <p>Explore with style and comfort</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Four Wheels.html">Four Wheels</a></li>
+                <li><a href="Monkey Jungle.html">Monkey Jungle</a></li>
+                <li><a href="zip line.html">zip line</a></li>
+                <li><a href="Panoramic view.html">Panoramic view</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Animal Tours Section -->
+    <section class="tour-section">
+        <h2>Monkey Jungle Tours</h2>
+        <p>Get close to nature with our Monkey tour!.
+            We will feed the monkeys and take photos and video making direct contact with them.
+        </p>
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="ft.png" alt="Animal Tour 1">
+                <div class="overlay">Meet the wildlife!</div>
+            </div>
+            <div class="image-item">
+                <img src="animal1.png" alt="Animal Tour 2">
+                <div class="overlay">Discover nature!</div>
+            </div>
+            <div class="image-item">
+                <img src="animal.png" alt="Animal Tour 3">
+                <div class="overlay">Explore with us!</div>
+            </div>
+            <div class="image-item">
+                <img src="animal4.png" alt="Animal Tour 4">
+                <div class="overlay">Wild and free!</div>
+            </div>
+            <div class="image-item">
+                <img src="animal3.jpg" alt="Animal Tour 1">
+                <div class="overlay">Meet the wildlife!</div>
+            </div>
+            <div class="image-item">
+                <img src="animal1.jpg" alt="Animal Tour 2">
+                <div class="overlay">Discover nature!</div>
+            </div>
+            <div class="image-item">
+                <img src="Animal7.jpg" alt="Animal Tour 3">
+                <div class="overlay">Explore with us!</div>
+            </div>
+            <div class="image-item">
+                <img src="Animal6.jpg" alt="Animal Tour 4">
+                <div class="overlay">Wild and free!</div>
+            </div>
+        </div>
+        <section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2025 My Country Adventures Tours SRL. All rights reserved.</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> contact@mycountryadventures.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Adventure Road, Country</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

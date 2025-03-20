@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramper - My Country Adventures Tours SRL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .logo img {
+            max-width: 100px; /* Tamaño del logo */
+            height: auto;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 16px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .tour-section, .gallery, .faq, .blog, .promotions, .contact {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta automáticamente el número de columnas */
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .gallery img, .gallery video {
+            width: 80%; /* Ajusta el ancho al 100% para que se adapte al contenedor */
+            border-radius: 10px;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .gallery img:hover, .gallery video:hover {
+            transform: scale(1.05);
+            filter: brightness(60%);
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery-item p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+        .faq-item {
+            background: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .blog article {
+            background: white;
+            padding: 10px;
+            margin: 10px auto;
+            max-width: 600px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .promotions {
+            background: #ffcc00;
+            color: #333;
+            padding: 15px;
+            font-weight: bold;
+        }
+        .contact iframe {
+            border: 0;
+            width: 80%;
+            height: 300px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .social-media a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="Lg1.png" alt="Logo"> <!-- Logo agregado aquí -->
+        </div>
+        <h2>My Country Adventures Tours SRL</h2>
+        <p>Explore with style and comfort</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Four Wheels.html">Four Wheels</a></li>
+                <li><a href="Monkey Jungle.html">Monkey Jungle</a></li>
+                <li><a href="zip line.html">zip line</a></li>
+                <li><a href="Panoramic view.html">Panoramic view</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Ramper Section -->
+    <section class="tour-section">
+        <h2>zip line</h2>
+        <p>Enjoy the scenic views with our ramper tours.</p>
+    </section>
+
+    <!-- Image and Video Gallery -->
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="pt.jpg" alt="Ramper Tour 1">
+            <p>Scenic view from the Ramper Tour 1.</p>
+        </div>
+        <div class="gallery-item">
+            <video controls>
+                <source src="Videos/Ramper2.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Video of Ramper Tour 2.</p>
+        </div>
+        <div class="gallery-item">
+            <video controls width="100%">
+                <source src="Videos/video5.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+            <p>Beautiful landscape from Ramper Tour 3.</p>
+        </div>
+        <div class="gallery-item">
+            <video controls>
+                <source src="Videos/video4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Highlights from Ramper Tour 4.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="ft12.jpg" alt="Ramper Tour 5">
+            <p>Adventure moments from Ramper Tour 5.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="ft9.jpg" alt="Ramper Tour 6">
+            <p>Exploring nature on Ramper Tour 6.</p>
+        </div>
+        <div class="gallery-item">
+            <video controls>
+                <source src="Videos/video.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Exciting moments from Ramper Tour 7.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="ft12.jpg" alt="Ramper Tour 8">
+            <p>Final stop on Ramper Tour 8.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What should I bring?</h3>
+            <p>Comfortable clothing, sunscreen, and a camera to capture great moments.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Are tours available all year?</h3>
+            <p>Yes! Our tours run throughout the year, weather permitting.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <h2>Adventure Stories</h2>
+        <article>
+            <h3>Top 5 Things to Do on a Ramper Tour</h3>
+            <p>Four-wheel drive, monkey tour, zip line, enjoy the beautiful rivers and food included</p>
+        </article>
+    </section>
+
+    <!-- Promotions Section -->
+    <section class="promotions">
+        <h2>Special Deals</h2>
+        <p>Book now and get 10% off your first tour!</p>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: +1 809-917-6796 </p>
+        <p>Email: contact@mycountryadventurestourssrl@gmail.com</p>
+        <p>Location: Carretera el choco/Sosua</p>
+        <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/mycountryadventurestours?igsh=bmFkdzQ5b3FrYXMw&utm_source=qr"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2025 My Country Adventures Tours SRL. All rights reserved.</p>
+    </footer>
+</body>
+</html>
